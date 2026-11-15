@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "KitKeychain",
+    name: "LumiKitKeychain",
     platforms: [
         .macOS("13.1"),
         .iOS(.v17)
