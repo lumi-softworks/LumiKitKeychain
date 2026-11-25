@@ -5,7 +5,8 @@ let package = Package(
     name: "LumiKitKeychain",
     platforms: [
         .macOS("13.1"),
-        .iOS(.v17)
+        .iOS(.v17),
+        .visionOS(.v1)
     ],
     products: [
         .library(
